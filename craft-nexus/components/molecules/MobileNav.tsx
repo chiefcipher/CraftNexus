@@ -13,7 +13,7 @@ export const MobileNav = () => {
   };
 
   return (
-    <div className="md:hidden flex flex-col w-full  shadow-sm">
+    <div className="md:hidden flex flex-col w-full  shadow-sm ">
       <ConnectWalletModal
         isOpen={isWalletModalOpen}
         handleClose={() => setIsWalletModalOpen(false)}
